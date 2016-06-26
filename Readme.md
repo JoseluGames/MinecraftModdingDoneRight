@@ -7,3 +7,9 @@ MinecraftModdingDoneRight is a attempt to make a modding example/tutorial done w
 ##Want to help?
 
 I'm not a programming professional neither a modding expert, I'm just a modding hobbyist, if you have a suggestion please make an issue and I will take care of it.
+
+##Things to do
+
+1. Choose Minecraft version to work with: http://www.strawpoll.me/10594726
+2. Setup Gradle.
+3. Have a beautiful Readme.
