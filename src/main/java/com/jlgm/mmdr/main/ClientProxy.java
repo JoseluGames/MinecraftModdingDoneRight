@@ -1,16 +1,28 @@
 package com.jlgm.mmdr.main;
 
-public class ClientProxy extends ServerProxy{
+import com.jlgm.mmdr.block.MMDRBlock;
+import com.jlgm.mmdr.item.MMDRItem;
+
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class ClientProxy extends CommonProxy{
 	
-	public void PreInit(){
-		
+	@Override
+	public void preInit(FMLPreInitializationEvent preInitEvent){
+		super.preInit(preInitEvent);
 	}
 	
-	public void Init(){
-		
+	@Override
+	public void init(FMLInitializationEvent initEvent){
+		MMDRBlock.registerBlock();
+		MMDRItem.registerItem();
+		super.init(initEvent);
 	}
 	
-	public void PostInit(){
-		
+	@Override
+	public void postInit(FMLPostInitializationEvent postInitEvent){
+		super.postInit(postInitEvent);
 	}
 }

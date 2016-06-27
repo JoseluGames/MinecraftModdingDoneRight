@@ -1,26 +1,31 @@
 package com.jlgm.mmdr.main;
 
 import com.jlgm.mmdr.block.MMDRBlock;
+import com.jlgm.mmdr.creativetab.MMDRCreativeTab;
 import com.jlgm.mmdr.item.MMDRItem;
 
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class ServerProxy extends CommonProxy{
+public class CommonProxy {
 	
-	@Override
 	public void preInit(FMLPreInitializationEvent preInitEvent){
-		super.preInit(preInitEvent);
+		Configuration config = new Configuration(preInitEvent.getSuggestedConfigurationFile());
+		config.load();
+		
+		config.save();
+		
+		MMDRCreativeTab.mainRegistry(config);
+		MMDRBlock.mainReigstry(config);
+		MMDRItem.mainRegistry(config);
 	}
 	
-	@Override
 	public void init(FMLInitializationEvent initEvent){
-		super.init(initEvent);
 	}
 	
-	@Override
 	public void postInit(FMLPostInitializationEvent postInitEvent){
-		super.postInit(postInitEvent);
+		
 	}
 }

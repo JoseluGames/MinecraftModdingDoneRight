@@ -28,33 +28,19 @@ public class MMDRMain {
 	public static MMDRMain instance;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent preEvent){
-		Configuration config = new Configuration(preEvent.getSuggestedConfigurationFile());
-		config.load();
-		
-		config.save();
-		
-		MMDRCreativeTab.mainRegistry(config);
-		MMDRBlock.mainReigstry(config);
-		MMDRItem.mainRegistry(config);
-		
-		proxy.PreInit();
+	public static void PreInit(FMLPreInitializationEvent preInitEvent){
+		proxy.preInit(preInitEvent);
 	}
 	
 	@EventHandler
-	public static void Init(FMLInitializationEvent event){
-		if(event.getSide() == Side.CLIENT){
-			MMDRBlock.registerBlock();
-			MMDRItem.registerItem();
-		}
-		
-		proxy.Init();
+	public static void Init(FMLInitializationEvent initEvent){
+		proxy.init(initEvent);
 	}
 	
 	@EventHandler
-	public static void PostInit(FMLPostInitializationEvent postEvent){
+	public static void PostInit(FMLPostInitializationEvent postInitEvent){
 		
 		
-		proxy.PostInit();
+		proxy.postInit(postInitEvent);
 	}
 }
