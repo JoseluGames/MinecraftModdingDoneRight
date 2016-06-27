@@ -9,6 +9,6 @@
 		"url": "https://github.com/JoseluGames/MinecraftModdingDoneRight",
 		"authorList": ["JoseluGames", "Forge Community"],
 		"credits": "Authored by JoseluGames",
-		"logoFile": "/mod_MMDR.logo.png"
+		"logoFile": "/assets/jlgm_mmdr/logo/jlgm_MMDR_Logo.png"
 	}]
 }
