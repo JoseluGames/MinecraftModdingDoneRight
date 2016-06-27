@@ -1,0 +1,14 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "jlgm_MMDR",
+		"name": "Minecraft Modding Done Right",
+		"description": "A modding example",
+		"version": "0.1a",
+		"mcversion:" "1.10",
+		"url": "https://github.com/JoseluGames/MinecraftModdingDoneRight",
+		"authorList": ["JoseluGames", "Forge Community"],
+		"credits": "Authored by JoseluGames",
+		"logoFile": "/mod_MMDR.logo.png"
+	}]
+}
