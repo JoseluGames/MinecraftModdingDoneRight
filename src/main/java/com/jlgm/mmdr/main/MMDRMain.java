@@ -23,7 +23,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public class MMDRMain {
 	
 	@SidedProxy(clientSide = MMDRConstants.CLIENT_PROXY, serverSide = MMDRConstants.SERVER_PROXY)
-	public static ServerProxy proxy;
+	public static CommonProxy proxy;
 	@Instance("MMDR")
 	public static MMDRMain instance;
 	
@@ -39,8 +39,6 @@ public class MMDRMain {
 	
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent postInitEvent){
-		
-		
 		proxy.postInit(postInitEvent);
 	}
 }
