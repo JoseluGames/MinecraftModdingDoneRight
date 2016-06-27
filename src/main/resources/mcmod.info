@@ -1,7 +1,7 @@
 {
 	"modListVersion": 2,
 	"modList": [{
-		"modid": "mod_MMDR",
+		"modid": "jlgm_MMDR",
 		"name": "Minecraft Modding Done Right",
 		"description": "A modding example",
 		"version": "0.1a",

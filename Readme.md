@@ -10,6 +10,9 @@ I'm not a programming professional neither a modding expert, I'm just a modding 
 
 ##Things to do
 
-1. Choose Minecraft version to work with: http://www.strawpoll.me/10594726
-2. Setup Gradle.
-3. Have a beautiful Readme.
+1. Setup Gradle.
+2. Have a beautiful Readme.
+
+##Things done
+
+1. Choose Minecraft version to work with: 1.10.
