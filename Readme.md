@@ -1,5 +1,9 @@
 # MinecraftModdingDoneRight
 
+##Coming for the knowledge?
+
+If you want to learn from this take a look to the [Wiki](https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki) were everything will be explained **WIP**.
+
 ##What is it?
 
 MinecraftModdingDoneRight is a attempt to make a modding example/tutorial done with the functions in forge that are not deprecated and that we are supposed to use to make "the perfect mod"
@@ -10,9 +14,9 @@ I'm not a programming professional neither a modding expert, I'm just a modding 
 
 ##Things to do
 
-1. Setup Gradle.
-2. Have a beautiful Readme.
+- Have a beautiful Readme.
+- Complete the Wiki.
 
 ##Things done
 
-1. Choose Minecraft version to work with: 1.10.
+- Choose Minecraft version to work with: 1.10.
