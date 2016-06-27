@@ -1,4 +1,3 @@
-# MinecraftModdingDoneRight
 ![alt text](https://github.com/JoseluGames/MinecraftModdingDoneRight/blob/mc-1.10/src/main/resources/assets/jlgm_mmdr/logo/jlgm_MMDR_Logo.png "MinecraftModdingDoneRight")
 
 ##Coming for the knowledge?
