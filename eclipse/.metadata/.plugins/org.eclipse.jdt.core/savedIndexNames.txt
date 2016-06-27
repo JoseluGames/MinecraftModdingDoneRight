@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\josel\Documents\GitHub\MinecraftModdingDoneRight\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+4257325822.index
