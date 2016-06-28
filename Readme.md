@@ -11,6 +11,7 @@ MinecraftModdingDoneRight is a attempt to make a modding example/tutorial done w
 ##Want to help?
 
 I'm not a programming professional neither a modding expert, I'm just a modding hobbyist, if you have a suggestion please make an issue and I will take care of it.
+We use waffle.io to manage the Issues and the thins to do, so if you want to join and see what is left to do enter https://waffle.io/JoseluGames/MinecraftModdingDoneRight/join
 
 ##Things to do
 
