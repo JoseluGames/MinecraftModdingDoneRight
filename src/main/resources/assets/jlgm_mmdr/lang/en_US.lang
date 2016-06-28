@@ -1,4 +1,5 @@
 tile.jlgm_mmdr:simpleBlock1.name=Simple Block 1
+tile.jlgm_mmdr:simpleStaticLamp1.name=Simple Static Lamp 1
 tile.jlgm_mmdr:examplewall.name=Example Wall (Texture of simple block 1)
 
 itemGroup.MMDR=Minecraft Modding Done Right
