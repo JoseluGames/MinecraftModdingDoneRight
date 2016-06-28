@@ -33,10 +33,12 @@ public class MMDRBlock {
 		wall1ItemBlock = new ItemBlock(wall1);
 	}
 	
-	public static void registerBlock(){
+	public static void registerBlockRenderers() {
 		RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
-		
 		renderItem.getItemModelMesher().register(simpleBlock1ItemBlock, 0, new ModelResourceLocation(MMDRConstants.MODID + ":" + "simpleBlock1", "inventory"));
+	}
+	
+	public static void registerBlock(){
 		GameRegistry.register(simpleBlock1);
 		GameRegistry.register(simpleBlock1ItemBlock.setRegistryName(simpleBlock1.getRegistryName()));
 
