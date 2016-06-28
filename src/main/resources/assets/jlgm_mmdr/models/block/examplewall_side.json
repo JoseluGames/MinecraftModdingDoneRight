@@ -1,5 +1,5 @@
 {
-    "parent": "block/wall_side",
+    "parent": "jlgm_mmdr:block/wall_side",
     "textures": {
         "wall": "jlgm_mmdr:blocks/simpleBlock1"
     }
