@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import com.jlgm.mmdr.creativetab.MMDRCreativeTab;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFence;
 import net.minecraft.block.BlockFenceGate;
@@ -30,7 +32,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ModWall extends Block {
+public class BlockWall1 extends Block {
 
 	public static final PropertyBool UP = PropertyBool.create("up");
 	public static final PropertyBool NORTH = PropertyBool.create("north");
@@ -61,8 +63,11 @@ public class ModWall extends Block {
 			AABB_BY_INDEX[10].setMaxY(1.5D), AABB_BY_INDEX[11].setMaxY(1.5D), AABB_BY_INDEX[12].setMaxY(1.5D),
 			AABB_BY_INDEX[13].setMaxY(1.5D), AABB_BY_INDEX[14].setMaxY(1.5D), AABB_BY_INDEX[15].setMaxY(1.5D) };
 
-	public ModWall(Block modelBlock, float hardness, float resistance, MapColor mapColour) {
+	public BlockWall1(Block modelBlock, float hardness, float resistance, MapColor mapColour, String blockName) {
 		super(modelBlock.getMaterial(modelBlock.getDefaultState()), mapColour);
+		this.setRegistryName(blockName);
+		this.setUnlocalizedName(this.getRegistryName().toString());
+		this.setCreativeTab(MMDRCreativeTab.tabMMDR);
 		this.setHardness(hardness);
 		this.setHarvestLevel(modelBlock.getHarvestTool(modelBlock.getDefaultState()), modelBlock.getHarvestLevel(modelBlock.getDefaultState()));
         this.setResistance(resistance);
@@ -162,7 +167,7 @@ public class ModWall extends Block {
 		Material material = iblockstate.getMaterial();
 		return block == Blocks.BARRIER ? false
 				: (block != this && !(block instanceof BlockFenceGate)
-						&& !(block instanceof ModWall)
+						&& !(block instanceof BlockWall1)
 								? (material.isOpaque() && iblockstate.isFullCube() ? material != Material.GOURD : false)
 								: true);
 	}
