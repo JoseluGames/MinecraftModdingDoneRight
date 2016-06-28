@@ -15,8 +15,8 @@ public class ClientProxy extends CommonProxy{
 	
 	@Override
 	public void init(FMLInitializationEvent initEvent){
-		MMDRBlock.renderBlock();
 		super.init(initEvent);
+		MMDRBlock.renderBlock();
 	}
 	
 	@Override
