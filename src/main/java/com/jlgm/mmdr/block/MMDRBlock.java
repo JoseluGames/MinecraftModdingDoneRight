@@ -1,5 +1,6 @@
 package com.jlgm.mmdr.block;
 
+import com.jlgm.mmdr.creativetab.MMDRCreativeTab;
 import com.jlgm.mmdr.lib.MMDRConstants;
 
 import net.minecraft.block.Block;
@@ -17,6 +18,7 @@ public class MMDRBlock {
 	
 	public static Block simpleBlock1;
 	public static ItemBlock simpleBlock1ItemBlock;
+	
 	public static Block wall1;
 	public static ItemBlock wall1ItemBlock;
 	
@@ -25,7 +27,7 @@ public class MMDRBlock {
 	}
 	
 	public static void initialiseBlock(){
-		simpleBlock1 = new BlockSimpleBlock1(Material.ROCK, "simpleBlock1");
+		simpleBlock1 = new Block(Material.ROCK).setUnlocalizedName("simpleBlock1").setHardness(0.7F).setResistance(0.5F).setCreativeTab(MMDRCreativeTab.tabMMDR);
 		simpleBlock1ItemBlock = new ItemBlock(simpleBlock1);
 
 		wall1 = new BlockWall1(Blocks.DIRT, 0.5F, 0.5F, MapColor.BLUE, "wall1");
@@ -33,7 +35,7 @@ public class MMDRBlock {
 	}
 	
 	public static void registerBlock(){
-		GameRegistry.register(simpleBlock1);
+		GameRegistry.register(simpleBlock1.setRegistryName("simpleBlock1"));
 		GameRegistry.register(simpleBlock1ItemBlock.setRegistryName(simpleBlock1.getRegistryName()));
 		
 		GameRegistry.register(wall1);
