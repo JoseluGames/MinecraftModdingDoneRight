@@ -1,0 +1,19 @@
+{
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "jlgm_mmdr:exsamplewall_post" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "jlgm_mmdr:exsamplewall_side", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "jlgm_mmdr:exsamplewall_side", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "jlgm_mmdr:exsamplewall_side", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "jlgm_mmdr:exsamplewall_wall_side", "y": 270, "uvlock": true }
+        }
+    ]
+}
