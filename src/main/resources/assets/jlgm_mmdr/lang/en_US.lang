@@ -1,3 +1,4 @@
-tile.jlgm_mmdr:simpleBlock1.name=Simple Block 1
+tile.simpleBlock1.name=Simple Block 1
+tile.examplewall.name=Example Wall (Texture of simple block 1)
 
 itemGroup.MMDR=Minecraft Modding Done Right
