@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "jlgm_mmdr:blocks/simpleBlock1"
+    }
+}
