@@ -9,7 +9,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderItem;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -21,7 +20,7 @@ public class MMDRBlock {
 	public static Block wall1;
 	public static ItemBlock wall1ItemBlock;
 	
-	public static void mainReigstry(Configuration configuration){
+	public static void mainRegistry(Configuration configuration){
 		initialiseBlock();
 	}
 	
@@ -34,14 +33,18 @@ public class MMDRBlock {
 	}
 	
 	public static void registerBlock(){
+		GameRegistry.register(simpleBlock1);
+		GameRegistry.register(simpleBlock1ItemBlock.setRegistryName(simpleBlock1.getRegistryName()));
+		
+		GameRegistry.register(wall1);
+		GameRegistry.register(wall1ItemBlock.setRegistryName(wall1.getRegistryName()));
+	}
+	
+	public static void renderBlock(){
 		RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
 		
 		renderItem.getItemModelMesher().register(simpleBlock1ItemBlock, 0, new ModelResourceLocation(MMDRConstants.MODID + ":" + "simpleBlock1", "inventory"));
-		GameRegistry.register(simpleBlock1);
-		GameRegistry.register(simpleBlock1ItemBlock.setRegistryName(simpleBlock1.getRegistryName()));
-
+		
 		renderItem.getItemModelMesher().register(wall1ItemBlock, 0, new ModelResourceLocation(MMDRConstants.MODID + ":" + "wall1", "inventory"));
-		GameRegistry.register(wall1);
-		GameRegistry.register(wall1ItemBlock.setRegistryName(wall1.getRegistryName()));
 	}
 }

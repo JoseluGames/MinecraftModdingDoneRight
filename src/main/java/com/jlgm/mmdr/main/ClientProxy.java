@@ -1,7 +1,6 @@
 package com.jlgm.mmdr.main;
 
 import com.jlgm.mmdr.block.MMDRBlock;
-import com.jlgm.mmdr.item.MMDRItem;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,8 +15,7 @@ public class ClientProxy extends CommonProxy{
 	
 	@Override
 	public void init(FMLInitializationEvent initEvent){
-		MMDRBlock.registerBlock();
-		MMDRItem.registerItem();
+		MMDRBlock.renderBlock();
 		super.init(initEvent);
 	}
 	

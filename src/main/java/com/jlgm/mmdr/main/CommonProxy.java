@@ -18,11 +18,13 @@ public class CommonProxy {
 		config.save();
 		
 		MMDRCreativeTab.mainRegistry(config);
-		MMDRBlock.mainReigstry(config);
+		MMDRBlock.mainRegistry(config);
 		MMDRItem.mainRegistry(config);
 	}
 	
 	public void init(FMLInitializationEvent initEvent){
+		MMDRBlock.registerBlock();
+		MMDRItem.registerItem();
 	}
 	
 	public void postInit(FMLPostInitializationEvent postInitEvent){
