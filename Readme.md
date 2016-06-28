@@ -15,9 +15,4 @@ We use waffle.io to manage the Issues and the thins to do, so if you want to joi
 
 ##Things to do
 
-- Have a beautiful Readme.
-- Complete the Wiki.
-
-##Things done
-
-- Choose Minecraft version to work with: 1.10.
+See waffle project for the things to do ( https://waffle.io/JoseluGames/MinecraftModdingDoneRight/join )
