@@ -23,6 +23,7 @@ public class CommonProxy {
 	}
 	
 	public void init(FMLInitializationEvent initEvent){
+		MMDRBlock.registerBlock();
 	}
 	
 	public void postInit(FMLPostInitializationEvent postInitEvent){
