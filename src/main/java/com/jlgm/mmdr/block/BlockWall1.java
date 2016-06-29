@@ -66,8 +66,7 @@ public class BlockWall1 extends Block {
 	public BlockWall1(Block modelBlock, float hardness, float resistance, MapColor mapColour, String blockName) {
 		super(modelBlock.getMaterial(modelBlock.getDefaultState()), mapColour);
 		this.setRegistryName(blockName);
-		this.setUnlocalizedName(this.getRegistryName().toString());
-		this.setCreativeTab(MMDRCreativeTab.tabMMDR);
+		this.setCreativeTab(MMDRCreativeTab.example_creative_tab_1);
 		this.setHardness(hardness);
 		this.setHarvestLevel(modelBlock.getHarvestTool(modelBlock.getDefaultState()), modelBlock.getHarvestLevel(modelBlock.getDefaultState()));
         this.setResistance(resistance);

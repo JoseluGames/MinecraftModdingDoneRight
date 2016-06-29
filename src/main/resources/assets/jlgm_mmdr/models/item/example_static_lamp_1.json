@@ -1,5 +1,5 @@
 {
-	"parent": "jlgm_mmdr:block/simpleStaticLamp1",
+	"parent": "jlgm_mmdr:block/example_static_lamp_1",
 	"display": {
 		"thirdperson": {
 			"rotation": [ 10, -45, 170 ],

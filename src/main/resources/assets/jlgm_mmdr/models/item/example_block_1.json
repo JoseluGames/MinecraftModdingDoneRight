@@ -1,5 +1,5 @@
 {
-	"parent": "jlgm_mmdr:block/simpleBlock1",
+	"parent": "jlgm_mmdr:block/example_block_1",
 	"display": {
 		"thirdperson": {
 			"rotation": [ 10, -45, 170 ],

@@ -1,3 +1,4 @@
-tile.jlgm_mmdr:simpleBlock1.name=Bloque Simple 1
+tile.example_block_1.name=Bloque de ejemplo 1
+tile.example_static_lamp_1.name=Lampara de ejemplo 1
 
-itemGroup.MMDR=Minecraft Modding Done Right
+itemGroup.example_creative_tab_1=Pestaña de ejemplo 1

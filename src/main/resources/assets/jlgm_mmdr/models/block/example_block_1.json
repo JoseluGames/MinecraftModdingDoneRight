@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "jlgm_mmdr:blocks/simpleBlock1"
+		"all": "jlgm_mmdr:blocks/example_block_1"
 	}
 }

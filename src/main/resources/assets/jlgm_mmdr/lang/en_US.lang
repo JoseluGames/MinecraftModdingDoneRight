@@ -1,5 +1,5 @@
-tile.jlgm_mmdr:simpleBlock1.name=Simple Block 1
-tile.jlgm_mmdr:simpleStaticLamp1.name=Simple Static Lamp 1
-tile.jlgm_mmdr:examplewall.name=Example Wall (Texture of simple block 1)
+tile.example_block_1.name=Example block 1
+tile.example_static_lamp_1.name=Example static lamp 1
+tile.examplewall.name=Example Wall (Texture of simple block 1)
 
-itemGroup.MMDR=Minecraft Modding Done Right
+itemGroup.example_creative_tab_1=Example tab 1
