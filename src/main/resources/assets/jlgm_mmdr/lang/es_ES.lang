@@ -1,4 +1,9 @@
 tile.example_block_1.name=Bloque de ejemplo 1
-tile.example_static_lamp_1.name=Lampara de ejemplo 1
+tile.example_static_lamp_1.name=Lampara estatica de ejemplo 1
 
 itemGroup.example_creative_tab_1=Pestaña de ejemplo 1
+
+achievement.example_achievement_1=Logro de ejemplo 1
+achievement.example_achievement_1.desc=Coloca un bloque de ejemplo 1 para obtener el logro
+achievement.example_achievement_2=Logro de ejemplo 2
+achievement.example_achievement_2.desc=Coloca una lampara estatica de ejemplo 1 para obtener el logro

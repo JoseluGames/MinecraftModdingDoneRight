@@ -5,6 +5,7 @@ import com.jlgm.mmdr.creativetab.MMDRCreativeTab;
 import com.jlgm.mmdr.item.MMDRItem;
 import com.jlgm.mmdr.lib.MMDRConstants;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
