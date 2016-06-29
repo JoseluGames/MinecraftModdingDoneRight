@@ -20,7 +20,6 @@ public class MMDRAchievement {
 	public static AchievementPage example_achievement_page_1;
 	
 	public static void registerAchievement(){
-		System.out.println("Test");
 		example_achievement_1 = new Achievement("achievement.example_achievement_1", "example_achievement_1", -2, 3, MMDRBlock.example_block_1, AchievementList.OPEN_INVENTORY).registerStat();
 		example_achievement_2 = new Achievement("achievement.example_achievement_2", "example_achievement_2", -2, 5, MMDRBlock.example_static_lamp_1, MMDRAchievement.example_achievement_1).registerStat();
 		example_achievement_3 = new Achievement("achievement.example_achievement_3", "example_achievement_3", 0, 7, Items.NETHER_STAR, MMDRAchievement.example_achievement_2).setSpecial().registerStat();
