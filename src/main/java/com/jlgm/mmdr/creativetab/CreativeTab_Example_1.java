@@ -1,3 +1,8 @@
+/**
+ * Wiki pages for this class:
+ *  - Creative Tab: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Creative-Tab
+ */
+
 package com.jlgm.mmdr.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;

@@ -1,3 +1,9 @@
+/**
+ * Wiki pages for this class:
+ * 	- Achievements: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Achievements
+ *  - Custom achievements page: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Custom-Achievements-Page
+ */
+
 package com.jlgm.mmdr.achievement;
 
 import com.jlgm.mmdr.block.MMDRBlock;

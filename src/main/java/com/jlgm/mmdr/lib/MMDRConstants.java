@@ -1,3 +1,8 @@
+/**
+ * Wiki pages for this class:
+ *  - Main classes: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Main-classes
+ */
+
 package com.jlgm.mmdr.lib;
 
 public class MMDRConstants {

@@ -1,3 +1,8 @@
+/**
+ * Wiki pages for this class:
+ *  - Achievements: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Achievements
+ */
+
 package com.jlgm.mmdr.event;
 
 import com.jlgm.mmdr.achievement.MMDRAchievement;
