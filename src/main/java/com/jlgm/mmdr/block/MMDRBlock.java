@@ -1,3 +1,8 @@
+/**
+ * Wiki pages for this class:
+ *  - Achievements: https://github.com/JoseluGames/MinecraftModdingDoneRight/wiki/Basic-block
+ */
+
 package com.jlgm.mmdr.block;
 
 import com.jlgm.mmdr.creativetab.MMDRCreativeTab;
