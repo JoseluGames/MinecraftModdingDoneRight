@@ -1,5 +1,6 @@
 tile.example_block_1.name=Example block 1
 tile.example_static_lamp_1.name=Example static lamp 1
+tile.example_stair_1.name=Example stair 1
 tile.example_wall_1.name=Example wall 1
 
 itemGroup.example_creative_tab_1=Example tab 1

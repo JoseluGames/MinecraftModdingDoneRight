@@ -1,5 +1,6 @@
 tile.example_block_1.name=Bloque de ejemplo 1
 tile.example_static_lamp_1.name=Lampara estatica de ejemplo 1
+tile.example_stair_1.name=Escalera de ejemplo 1
 tile.example_wall_1.name=Muro de ejemplo 1
 
 itemGroup.example_creative_tab_1=Pestaña de ejemplo 1
