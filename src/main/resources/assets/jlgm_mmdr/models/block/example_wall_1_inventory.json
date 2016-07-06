@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "jlgm_mmdr:blocks/example_block_1"
+    }
+}

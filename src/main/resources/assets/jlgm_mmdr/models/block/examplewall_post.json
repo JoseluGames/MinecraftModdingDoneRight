@@ -1,6 +1,0 @@
-{
-    "parent": "jlgm_mmdr:block/wall_post",
-    "textures": {
-        "wall": "jlgm_mmdr:blocks/simpleBlock1"
-    }
-}
